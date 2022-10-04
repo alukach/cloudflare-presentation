@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Presentation</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <!-- <link rel="stylesheet" href="dist/theme/white.css" /> -->
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/a11y-dark.css" />
+
+    <style>
+      :root {
+        /* Theme overrides... */
+        --r-main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+          helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial,
+          sans-serif;
+
+        --r-heading-text-transform: none;
+        --r-heading-font: var(--r-main-font);
+
+        --r-main-font-weight: 200;
+        --r-heading-font-weight: 800;
+
+        --r-selection-background-color: #85144b;
+      }
+
+      p {
+        font-weight: var(--r-heading-font-weight);
+      }
+
+      li {
+        font-weight: var(--r-main-font-weight);
+      }
+
+      kbd {
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 20%),
+          0 2px 0 0 rgb(255 255 255 / 70%) inset;
+        color: var(--r-main-color);
+        display: inline-block;
+        font-size: 0.85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+      }
+
+      .small {
+        font-size: 65%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="slides.md"
+          data-separator-vertical="^--"
+          data-separator-notes="^NOTE:"
+        >
+          <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+        --></section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        transition: "none",
+        // controls: false,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
