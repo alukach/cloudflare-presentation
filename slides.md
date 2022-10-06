@@ -192,7 +192,7 @@ it can run doom <!-- .element: class="highlight-red" -->
 
 ---
 
-durable objects
+durable objects <!-- .element: class="r-fit-text" -->
 
 --
 
@@ -236,7 +236,7 @@ learn more
 
 ---
 
-[r2](https://developers.cloudflare.com/r2/data-access/workers-api/workers-api-reference/)
+[r2](https://developers.cloudflare.com/r2/data-access/workers-api/workers-api-reference/) <!-- .element: class="r-fit-text" -->
 
 --
 
@@ -256,7 +256,7 @@ pay for monthly storage costs only <!-- .element: class="fragment r-fit-text" --
 
 ---
 
-[kv](https://developers.cloudflare.com/workers/runtime-apis/kv/)
+[kv](https://developers.cloudflare.com/workers/runtime-apis/kv/) <!-- .element: class="r-fit-text" -->
 
 --
 
@@ -268,7 +268,7 @@ basically redis
 
 ---
 
-[pub/sub](https://blog.cloudflare.com/announcing-pubsub-programmable-mqtt-messaging/)
+[pub/sub](https://blog.cloudflare.com/announcing-pubsub-programmable-mqtt-messaging/) <!-- .element: class="r-fit-text" -->
 
 --
 
@@ -292,7 +292,7 @@ _(only in private beta)_
 
 ---
 
-[d1](https://blog.cloudflare.com/introducing-d1/)
+[d1](https://blog.cloudflare.com/introducing-d1/) <!-- .element: class="r-fit-text" -->
 
 --
 
