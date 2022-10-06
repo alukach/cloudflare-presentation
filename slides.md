@@ -268,6 +268,30 @@ basically redis
 
 ---
 
+[pub/sub](https://blog.cloudflare.com/announcing-pubsub-programmable-mqtt-messaging/)
+
+--
+
+> Pub/Sub is Cloudflare’s distributed MQTT messaging service.
+
+--
+
+basically mqtt
+
+--
+
+<!-- .slide: data-background-iframe="https://microservices.io/patterns/data/event-sourcing.html" -->
+
+orchestration layer
+
+event sourcing
+
+--
+
+_(only in private beta)_
+
+---
+
 [d1](https://blog.cloudflare.com/introducing-d1/)
 
 --
@@ -282,7 +306,7 @@ basically SQLite in your worker
 
 --
 
-only in private beta
+_(only in private beta)_
 
 --
 
